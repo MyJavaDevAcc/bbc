@@ -1,0 +1,15 @@
+Looking for an passionate Python Selenium Expert
+Scraping experience is a Must
+Machine Learning, Artificial Intelligence is a Big Plus
+Before hiring you to the project, there will be a small unpaid test which you have to clear.
+
+If you are interested then complete the following (unpaid)test:
+Python Selenium Test
+This is a quick 10-15 minutes test, hoping that you have all necessary tools ready on your computer.   (Scraping experience is MANDATORY for this job)
+
+Use Selenium with PYTHON in headless mode; Automate to scrap below details from www.bbc.com ..   Create an excel file and update all below details into that file.
+
+1) Fetch all links on home page, and store in Excel file
+2) Open Each link and Fetch title of the topic and also fetch Full article  description (See screenshot to locate Title & Description), if any of the link do not have title or description then print"NOT FOUND"
+
+Once successful with test, please share screenshots / Excel file output for verification.  If you are successful till this point, you are 80% selected. Followed by that we will start assigning projects, In our long term projects.
