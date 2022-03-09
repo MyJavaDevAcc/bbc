@@ -1,6 +1,5 @@
 import scrapy
 
-
 class BbcSpider(scrapy.Spider):
     name = 'bbc'
     allowed_domains = ['www.bbc.com']
@@ -13,6 +12,7 @@ class BbcSpider(scrapy.Spider):
     def parsePage(self, response):
         for page in response.xpath("//article"):
             yield {
+
                 'title': page.xpath("//article/div/h1[@id='main-heading']/text()").get(),
-                'description':  page.xpath("///article/div/h1[@id='main-heading']/text()").get(),
+                'description':  page.xpath("//article").extract()
             }
